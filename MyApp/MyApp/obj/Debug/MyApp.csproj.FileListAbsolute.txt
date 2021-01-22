@@ -1,0 +1,15 @@
+C:\Users\nagyzs\source\repos\MyApp\MyApp\bin\Debug\MyApp.exe.config
+C:\Users\nagyzs\source\repos\MyApp\MyApp\bin\Debug\MyApp.exe
+C:\Users\nagyzs\source\repos\MyApp\MyApp\bin\Debug\MyApp.pdb
+C:\Users\nagyzs\source\repos\MyApp\MyApp\obj\Debug\MyApp.csprojAssemblyReference.cache
+C:\Users\nagyzs\source\repos\MyApp\MyApp\obj\Debug\MyApp.Properties.Resources.resources
+C:\Users\nagyzs\source\repos\MyApp\MyApp\obj\Debug\MyApp.csproj.GenerateResource.cache
+C:\Users\nagyzs\source\repos\MyApp\MyApp\obj\Debug\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\nagyzs\source\repos\MyApp\MyApp\obj\Debug\MyApp.exe
+C:\Users\nagyzs\source\repos\MyApp\MyApp\obj\Debug\MyApp.pdb
+C:\Users\nagyzs\source\repos\MyApp\MyApp\obj\Debug\MyApp.frmMain.resources
+C:\Users\nagyzs\source\repos\MyApp\MyApp\obj\Debug\MyApp.frmLogInRegister.resources
+C:\Users\nagyzs\source\repos\MyApp\MyApp\bin\Debug\MySql.Data.dll
+C:\Users\nagyzs\source\repos\MyApp\MyApp\bin\Debug\MySql.Data.xml
+C:\Users\nagyzs\source\repos\MyApp\MyApp\obj\Debug\MyApp.csproj.CopyComplete
+C:\Users\nagyzs\source\repos\MyApp\MyApp\obj\Debug\MyApp.frmModifySQLConn.resources
