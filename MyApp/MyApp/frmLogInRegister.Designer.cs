@@ -40,6 +40,9 @@ namespace MyApp
             this.btnExit = new System.Windows.Forms.Button();
             this.chckRememberMe = new System.Windows.Forms.CheckBox();
             this.pnlLogIn = new System.Windows.Forms.Panel();
+            this.btnModifyDB = new System.Windows.Forms.Button();
+            this.lblDbName = new System.Windows.Forms.Label();
+            this.lblDatabase = new System.Windows.Forms.Label();
             this.pnlRegister = new System.Windows.Forms.Panel();
             this.btnBackToLogIn = new System.Windows.Forms.Button();
             this.btnExit2 = new System.Windows.Forms.Button();
@@ -49,13 +52,10 @@ namespace MyApp
             this.label1 = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtConfirmPassword = new System.Windows.Forms.TextBox();
+            this.txtRegisterConfirmPassword = new System.Windows.Forms.TextBox();
             this.txtRegisterPassword = new System.Windows.Forms.TextBox();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtRegisterUserName = new System.Windows.Forms.TextBox();
             this.txtRegisterEmail = new System.Windows.Forms.TextBox();
-            this.lblDatabase = new System.Windows.Forms.Label();
-            this.lblDbName = new System.Windows.Forms.Label();
-            this.btnModifyDB = new System.Windows.Forms.Button();
             this.pnlLogIn.SuspendLayout();
             this.pnlRegister.SuspendLayout();
             this.SuspendLayout();
@@ -182,6 +182,36 @@ namespace MyApp
             this.pnlLogIn.TabIndex = 0;
             this.pnlLogIn.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlLogIn_Paint);
             // 
+            // btnModifyDB
+            // 
+            this.btnModifyDB.Location = new System.Drawing.Point(39, 102);
+            this.btnModifyDB.Name = "btnModifyDB";
+            this.btnModifyDB.Size = new System.Drawing.Size(52, 22);
+            this.btnModifyDB.TabIndex = 8;
+            this.btnModifyDB.Text = "Modify";
+            this.btnModifyDB.UseVisualStyleBackColor = true;
+            this.btnModifyDB.Click += new System.EventHandler(this.btnModifyDB_Click);
+            // 
+            // lblDbName
+            // 
+            this.lblDbName.AutoSize = true;
+            this.lblDbName.ForeColor = System.Drawing.Color.Silver;
+            this.lblDbName.Location = new System.Drawing.Point(97, 86);
+            this.lblDbName.Name = "lblDbName";
+            this.lblDbName.Size = new System.Drawing.Size(91, 13);
+            this.lblDbName.TabIndex = 6;
+            this.lblDbName.Text = "Exampledatabase";
+            // 
+            // lblDatabase
+            // 
+            this.lblDatabase.AutoSize = true;
+            this.lblDatabase.ForeColor = System.Drawing.Color.Silver;
+            this.lblDatabase.Location = new System.Drawing.Point(35, 86);
+            this.lblDatabase.Name = "lblDatabase";
+            this.lblDatabase.Size = new System.Drawing.Size(56, 13);
+            this.lblDatabase.TabIndex = 6;
+            this.lblDatabase.Text = "Database:";
+            // 
             // pnlRegister
             // 
             this.pnlRegister.Controls.Add(this.btnBackToLogIn);
@@ -192,9 +222,9 @@ namespace MyApp
             this.pnlRegister.Controls.Add(this.label1);
             this.pnlRegister.Controls.Add(this.lblName);
             this.pnlRegister.Controls.Add(this.label2);
-            this.pnlRegister.Controls.Add(this.txtConfirmPassword);
+            this.pnlRegister.Controls.Add(this.txtRegisterConfirmPassword);
             this.pnlRegister.Controls.Add(this.txtRegisterPassword);
-            this.pnlRegister.Controls.Add(this.txtUserName);
+            this.pnlRegister.Controls.Add(this.txtRegisterUserName);
             this.pnlRegister.Controls.Add(this.txtRegisterEmail);
             this.pnlRegister.Location = new System.Drawing.Point(12, 12);
             this.pnlRegister.Name = "pnlRegister";
@@ -283,14 +313,14 @@ namespace MyApp
             this.label2.TabIndex = 29;
             this.label2.Text = "E-mail Address:";
             // 
-            // txtConfirmPassword
+            // txtRegisterConfirmPassword
             // 
-            this.txtConfirmPassword.Location = new System.Drawing.Point(43, 234);
-            this.txtConfirmPassword.Name = "txtConfirmPassword";
-            this.txtConfirmPassword.PasswordChar = '*';
-            this.txtConfirmPassword.Size = new System.Drawing.Size(200, 20);
-            this.txtConfirmPassword.TabIndex = 3;
-            this.txtConfirmPassword.UseSystemPasswordChar = true;
+            this.txtRegisterConfirmPassword.Location = new System.Drawing.Point(43, 234);
+            this.txtRegisterConfirmPassword.Name = "txtRegisterConfirmPassword";
+            this.txtRegisterConfirmPassword.PasswordChar = '*';
+            this.txtRegisterConfirmPassword.Size = new System.Drawing.Size(200, 20);
+            this.txtRegisterConfirmPassword.TabIndex = 3;
+            this.txtRegisterConfirmPassword.UseSystemPasswordChar = true;
             // 
             // txtRegisterPassword
             // 
@@ -301,12 +331,12 @@ namespace MyApp
             this.txtRegisterPassword.TabIndex = 2;
             this.txtRegisterPassword.UseSystemPasswordChar = true;
             // 
-            // txtUserName
+            // txtRegisterUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(42, 76);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(200, 20);
-            this.txtUserName.TabIndex = 0;
+            this.txtRegisterUserName.Location = new System.Drawing.Point(42, 76);
+            this.txtRegisterUserName.Name = "txtRegisterUserName";
+            this.txtRegisterUserName.Size = new System.Drawing.Size(200, 20);
+            this.txtRegisterUserName.TabIndex = 0;
             // 
             // txtRegisterEmail
             // 
@@ -315,44 +345,14 @@ namespace MyApp
             this.txtRegisterEmail.Size = new System.Drawing.Size(200, 20);
             this.txtRegisterEmail.TabIndex = 1;
             // 
-            // lblDatabase
-            // 
-            this.lblDatabase.AutoSize = true;
-            this.lblDatabase.ForeColor = System.Drawing.Color.Silver;
-            this.lblDatabase.Location = new System.Drawing.Point(35, 86);
-            this.lblDatabase.Name = "lblDatabase";
-            this.lblDatabase.Size = new System.Drawing.Size(56, 13);
-            this.lblDatabase.TabIndex = 6;
-            this.lblDatabase.Text = "Database:";
-            // 
-            // lblDbName
-            // 
-            this.lblDbName.AutoSize = true;
-            this.lblDbName.ForeColor = System.Drawing.Color.Silver;
-            this.lblDbName.Location = new System.Drawing.Point(97, 86);
-            this.lblDbName.Name = "lblDbName";
-            this.lblDbName.Size = new System.Drawing.Size(91, 13);
-            this.lblDbName.TabIndex = 6;
-            this.lblDbName.Text = "Exampledatabase";
-            // 
-            // btnModifyDB
-            // 
-            this.btnModifyDB.Location = new System.Drawing.Point(39, 102);
-            this.btnModifyDB.Name = "btnModifyDB";
-            this.btnModifyDB.Size = new System.Drawing.Size(52, 22);
-            this.btnModifyDB.TabIndex = 8;
-            this.btnModifyDB.Text = "Modify";
-            this.btnModifyDB.UseVisualStyleBackColor = true;
-            this.btnModifyDB.Click += new System.EventHandler(this.btnModifyDB_Click);
-            // 
             // frmLogInRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(300, 400);
-            this.Controls.Add(this.pnlLogIn);
             this.Controls.Add(this.pnlRegister);
+            this.Controls.Add(this.pnlLogIn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmLogInRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -390,9 +390,9 @@ namespace MyApp
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtConfirmPassword;
+        private System.Windows.Forms.TextBox txtRegisterConfirmPassword;
         private System.Windows.Forms.TextBox txtRegisterPassword;
-        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox txtRegisterUserName;
         private System.Windows.Forms.TextBox txtRegisterEmail;
         private System.Windows.Forms.Label lblDbName;
         private System.Windows.Forms.Label lblDatabase;

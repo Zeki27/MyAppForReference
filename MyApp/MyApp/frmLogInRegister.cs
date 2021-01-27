@@ -26,8 +26,12 @@ namespace MyApp
         #region LoginPanel
         private void btnLogIn_Click(object sender, EventArgs e)
         {
-            this.Close();
-            FormOpenClose.OpenMainForm();
+            SQLCommands.UserLogIn(txtLogInEmail.Text, txtLoginPassword.Text);
+            if (SQLCommands._loggedIn)
+            {
+                this.Close();
+                FormOpenClose.OpenMainForm();
+            }
         }
 
         private void btnExit_Click(object sender, EventArgs e)

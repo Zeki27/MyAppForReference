@@ -16,7 +16,7 @@ namespace MyApp
         public static string server = "localhost";
         public static string user = "root";
         public static string password = "";
-        public static string database = "exampledatabase";
+        public static string database = "myrefappdb";
         public static string SslMode = "none";
 
 
@@ -37,7 +37,7 @@ namespace MyApp
         }
         #endregion
 
-
+        //gets the new prameters from the frmModifySQLConn 
         public static void ModifyConParam(string serv, string usid, string pass, string db, string ssl)
         {
             server = serv;
@@ -49,6 +49,11 @@ namespace MyApp
             dbConn = connString;
         }
 
+        public static MySqlConnection NewSQLConn()
+        {
+            MySqlConnection con = new MySqlConnection("server =" + server + ";user id=" + user + "; password = " + password + ";database =" + database + ";SslMode =" + SslMode + ";");
+            return con;
+        }
 
 
         //delete
