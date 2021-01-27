@@ -177,6 +177,9 @@ namespace MyApp
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MyApp Modify SQL database";
             this.Load += new System.EventHandler(this.frmModifySQLConn_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmModifySQLConn_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frmModifySQLConn_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.frmModifySQLConn_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 
