@@ -35,5 +35,15 @@ namespace MyApp
             Application.Run(new frmModifySQLConn());
         }
 
+        public static void OpenAddWebsiteNewsForm()
+        {
+            th = new Thread(OpenAddWebsiteNews);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+        }
+        private static void OpenAddWebsiteNews(object obj)
+        {
+            Application.Run(new frmAddWebsiteNews());
+        }
     }
 }

@@ -13,12 +13,14 @@ namespace MyApp
     {
         public static bool _loggedIn = false;
 
-        //public static MySqlCommand command;
+        public static MySqlCommand command;
 
         public static void CreateUser()
         {
 
         }
+
+        #region LogIn
         public static void UserLogIn(string email, string pw)
         {
             if (!_loggedIn)
@@ -37,20 +39,35 @@ namespace MyApp
                 }
             }
         }
-        public static void Read()
+        #endregion
+
+        #region CreateWebsiteNews
+
+        public static void CreateWebsiteNews(string titlehu, string deschu, string titleen, string descen)
         {
+            DateTime myDateTime = DateTime.Now;
+            string sqlFormatted = myDateTime.ToString("yyyy-MM-dd");
+
+            string queryhu = string.Format("INSERT INTO `myrefappnewshun`(`myrefappnewsname`, `myrefappnewsdate`, `myrefappnewsdescription`) VALUES ('"+ titlehu + "','" + DateTime.Now.ToString("yyyy-MM-dd") + "','" + deschu + "')");
+            string queryen = string.Format("INSERT INTO `myrefappnewsen`(`myrefappnewsname`, `myrefappnewsdate`, `myrefappnewsdescription`) VALUES ('" + titleen + "','" + sqlFormatted + "','" + descen + "')");
+
+            MySqlConnection dbConn = SQLConnection.NewSQLConn();
+
+
+            command = new MySqlCommand(queryhu, dbConn);
+            MySqlCommand commanden = new MySqlCommand(queryen, dbConn);
+            dbConn.Open();
+
+            command.ExecuteNonQuery();
+            commanden.ExecuteNonQuery();
+
+            dbConn.Close();
+
+            MessageBox.Show("News Succesfuly Created!");
 
         }
 
-        public static void Update()
-        {
 
-        }
-
-        public static void Delete()
-        {
-
-        }
-
+        #endregion
     }
 }

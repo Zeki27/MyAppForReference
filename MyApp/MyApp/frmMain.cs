@@ -16,5 +16,15 @@ namespace MyApp
         {
             InitializeComponent();
         }
+
+        private void btnWebsiteDbTab_Click(object sender, EventArgs e)
+        {
+            pnlWebSiteDb.BringToFront();
+        }
+
+        private void btnAddNews_Click(object sender, EventArgs e)
+        {
+            FormOpenClose.OpenAddWebsiteNewsForm();
+        }
     }
 }
