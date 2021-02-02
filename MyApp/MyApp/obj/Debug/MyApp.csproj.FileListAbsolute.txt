@@ -27,3 +27,4 @@ C:\Users\nagyzs\source\repos\MyApp\MyApp\MyApp\obj\Debug\MyApp.csproj.CoreCompil
 C:\Users\nagyzs\source\repos\MyApp\MyApp\MyApp\obj\Debug\MyApp.csproj.CopyComplete
 C:\Users\nagyzs\source\repos\MyApp\MyApp\MyApp\obj\Debug\MyApp.exe
 C:\Users\nagyzs\source\repos\MyApp\MyApp\MyApp\obj\Debug\MyApp.pdb
+C:\Users\nagyzs\source\repos\MyApp\MyApp\MyApp\obj\Debug\MyApp.frmAddWebsiteNews.resources
