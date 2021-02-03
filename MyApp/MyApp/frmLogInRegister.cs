@@ -57,6 +57,8 @@ namespace MyApp
 
 
         #region Draggable
+
+        #region form
         private void frmWelcome_MouseDown(object sender, MouseEventArgs e)
         {
             mouseDown = true;
@@ -78,6 +80,32 @@ namespace MyApp
         {
             mouseDown = false;
         }
+        #endregion
+
+        #region panel
+        private void pnlRegister_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void pnlRegister_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void pnlRegister_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
+        }
+        #endregion
+
         #endregion
 
 
