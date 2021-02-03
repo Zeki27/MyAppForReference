@@ -46,10 +46,10 @@ namespace MyApp
         public static void CreateWebsiteNews(string titlehu, string deschu, string titleen, string descen)
         {
             DateTime myDateTime = DateTime.Now;
-            string sqlFormatted = myDateTime.ToString("yyyy-MM-dd");
+            string onlyDate = myDateTime.Date.ToString("yyyy-MM-dd");
 
-            string queryhu = string.Format("INSERT INTO `myrefappnewshun`(`myrefappnewsname`, `myrefappnewsdate`, `myrefappnewsdescription`) VALUES ('"+ titlehu + "','" + DateTime.Now.ToString("yyyy-MM-dd") + "','" + deschu + "')");
-            string queryen = string.Format("INSERT INTO `myrefappnewsen`(`myrefappnewsname`, `myrefappnewsdate`, `myrefappnewsdescription`) VALUES ('" + titleen + "','" + sqlFormatted + "','" + descen + "')");
+            string queryhu = string.Format("INSERT INTO `myrefappnewshun`(`myrefappnewsname`, `myrefappnewsdate`, `myrefappnewsdescription`) VALUES ('"+ titlehu + "','" + onlyDate + "','" + deschu + "')");
+            string queryen = string.Format("INSERT INTO `myrefappnewsen`(`myrefappnewsname`, `myrefappnewsdate`, `myrefappnewsdescription`) VALUES ('" + titleen + "','" + onlyDate + "','" + descen + "')");
 
             MySqlConnection dbConn = SQLConnection.NewSQLConn();
 

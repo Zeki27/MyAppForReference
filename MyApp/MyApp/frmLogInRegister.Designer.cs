@@ -231,6 +231,9 @@ namespace MyApp
             this.pnlRegister.Size = new System.Drawing.Size(276, 376);
             this.pnlRegister.TabIndex = 10;
             this.pnlRegister.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlRegister_Paint);
+            this.pnlRegister.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlRegister_MouseDown);
+            this.pnlRegister.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnlRegister_MouseMove);
+            this.pnlRegister.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pnlRegister_MouseUp);
             // 
             // btnBackToLogIn
             // 
