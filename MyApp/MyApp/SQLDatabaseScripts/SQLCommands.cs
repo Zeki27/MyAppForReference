@@ -48,18 +48,15 @@ namespace MyApp
             DateTime myDateTime = DateTime.Now;
             string onlyDate = myDateTime.Date.ToString("yyyy-MM-dd");
 
-            string queryhu = string.Format("INSERT INTO `myrefappnewshun`(`myrefappnewsname`, `myrefappnewsdate`, `myrefappnewsdescription`) VALUES ('"+ titlehu + "','" + onlyDate + "','" + deschu + "')");
-            string queryen = string.Format("INSERT INTO `myrefappnewsen`(`myrefappnewsname`, `myrefappnewsdate`, `myrefappnewsdescription`) VALUES ('" + titleen + "','" + onlyDate + "','" + descen + "')");
+            string query= string.Format("INSERT INTO myrefappnews (`myrefappnewsnamehun`, `myrefappnewsnameeng`, `myrefappnewsdate`, `myrefappnewsdeschun`, `myrefappnewsdesceng`, `myrefappnewsuserid`) VALUES ('" + titlehu + "','" + titleen + "','" + onlyDate + "','" + deschu + "','" + descen + "'," + 1.ToString() + ")");
 
             MySqlConnection dbConn = SQLConnection.NewSQLConn();
 
 
-            command = new MySqlCommand(queryhu, dbConn);
-            MySqlCommand commanden = new MySqlCommand(queryen, dbConn);
+            command = new MySqlCommand(query, dbConn);
             dbConn.Open();
 
             command.ExecuteNonQuery();
-            commanden.ExecuteNonQuery();
 
             dbConn.Close();
 
