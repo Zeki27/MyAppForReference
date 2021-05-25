@@ -53,6 +53,12 @@
     <Compile Include="frmAddWebsiteNews.Designer.cs">
       <DependentUpon>frmAddWebsiteNews.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCV.Designer.cs">
+      <DependentUpon>frmCV.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmModifySQLConn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     <Compile Include="SQLDatabaseScripts\SQLConnection.cs" />
     <EmbeddedResource Include="frmAddWebsiteNews.resx">
       <DependentUpon>frmAddWebsiteNews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCV.resx">
+      <DependentUpon>frmCV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>

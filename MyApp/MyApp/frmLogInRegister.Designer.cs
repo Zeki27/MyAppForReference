@@ -62,17 +62,25 @@ namespace MyApp
             // 
             // txtLogInEmail
             // 
+            this.txtLogInEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtLogInEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtLogInEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtLogInEmail.ForeColor = System.Drawing.Color.Silver;
             this.txtLogInEmail.Location = new System.Drawing.Point(38, 154);
             this.txtLogInEmail.Name = "txtLogInEmail";
-            this.txtLogInEmail.Size = new System.Drawing.Size(200, 20);
+            this.txtLogInEmail.Size = new System.Drawing.Size(200, 22);
             this.txtLogInEmail.TabIndex = 0;
             // 
             // txtLoginPassword
             // 
+            this.txtLoginPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtLoginPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtLoginPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtLoginPassword.ForeColor = System.Drawing.Color.Silver;
             this.txtLoginPassword.Location = new System.Drawing.Point(38, 206);
             this.txtLoginPassword.Name = "txtLoginPassword";
             this.txtLoginPassword.PasswordChar = '*';
-            this.txtLoginPassword.Size = new System.Drawing.Size(200, 20);
+            this.txtLoginPassword.Size = new System.Drawing.Size(200, 22);
             this.txtLoginPassword.TabIndex = 1;
             this.txtLoginPassword.UseSystemPasswordChar = true;
             // 
@@ -131,6 +139,9 @@ namespace MyApp
             // 
             // btnLogIn
             // 
+            this.btnLogIn.FlatAppearance.BorderSize = 0;
+            this.btnLogIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogIn.ForeColor = System.Drawing.Color.Silver;
             this.btnLogIn.Location = new System.Drawing.Point(38, 287);
             this.btnLogIn.Name = "btnLogIn";
             this.btnLogIn.Size = new System.Drawing.Size(80, 30);
@@ -141,6 +152,9 @@ namespace MyApp
             // 
             // btnExit
             // 
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.ForeColor = System.Drawing.Color.Silver;
             this.btnExit.Location = new System.Drawing.Point(158, 287);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(80, 30);
@@ -184,6 +198,9 @@ namespace MyApp
             // 
             // btnModifyDB
             // 
+            this.btnModifyDB.FlatAppearance.BorderSize = 0;
+            this.btnModifyDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModifyDB.ForeColor = System.Drawing.Color.Silver;
             this.btnModifyDB.Location = new System.Drawing.Point(39, 102);
             this.btnModifyDB.Name = "btnModifyDB";
             this.btnModifyDB.Size = new System.Drawing.Size(52, 22);
@@ -237,6 +254,9 @@ namespace MyApp
             // 
             // btnBackToLogIn
             // 
+            this.btnBackToLogIn.FlatAppearance.BorderSize = 0;
+            this.btnBackToLogIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBackToLogIn.ForeColor = System.Drawing.Color.Silver;
             this.btnBackToLogIn.Location = new System.Drawing.Point(43, 328);
             this.btnBackToLogIn.Name = "btnBackToLogIn";
             this.btnBackToLogIn.Size = new System.Drawing.Size(199, 23);
@@ -247,6 +267,9 @@ namespace MyApp
             // 
             // btnExit2
             // 
+            this.btnExit2.FlatAppearance.BorderSize = 0;
+            this.btnExit2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit2.ForeColor = System.Drawing.Color.Silver;
             this.btnExit2.Location = new System.Drawing.Point(162, 278);
             this.btnExit2.Name = "btnExit2";
             this.btnExit2.Size = new System.Drawing.Size(80, 30);
@@ -257,6 +280,9 @@ namespace MyApp
             // 
             // btnRegister
             // 
+            this.btnRegister.FlatAppearance.BorderSize = 0;
+            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegister.ForeColor = System.Drawing.Color.Silver;
             this.btnRegister.Location = new System.Drawing.Point(42, 278);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(80, 30);
@@ -318,44 +344,60 @@ namespace MyApp
             // 
             // txtRegisterConfirmPassword
             // 
+            this.txtRegisterConfirmPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtRegisterConfirmPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRegisterConfirmPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtRegisterConfirmPassword.ForeColor = System.Drawing.Color.Silver;
             this.txtRegisterConfirmPassword.Location = new System.Drawing.Point(43, 234);
             this.txtRegisterConfirmPassword.Name = "txtRegisterConfirmPassword";
             this.txtRegisterConfirmPassword.PasswordChar = '*';
-            this.txtRegisterConfirmPassword.Size = new System.Drawing.Size(200, 20);
+            this.txtRegisterConfirmPassword.Size = new System.Drawing.Size(200, 22);
             this.txtRegisterConfirmPassword.TabIndex = 3;
             this.txtRegisterConfirmPassword.UseSystemPasswordChar = true;
             // 
             // txtRegisterPassword
             // 
+            this.txtRegisterPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtRegisterPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRegisterPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtRegisterPassword.ForeColor = System.Drawing.Color.Silver;
             this.txtRegisterPassword.Location = new System.Drawing.Point(42, 180);
             this.txtRegisterPassword.Name = "txtRegisterPassword";
             this.txtRegisterPassword.PasswordChar = '*';
-            this.txtRegisterPassword.Size = new System.Drawing.Size(200, 20);
+            this.txtRegisterPassword.Size = new System.Drawing.Size(200, 22);
             this.txtRegisterPassword.TabIndex = 2;
             this.txtRegisterPassword.UseSystemPasswordChar = true;
             // 
             // txtRegisterUserName
             // 
+            this.txtRegisterUserName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtRegisterUserName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRegisterUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtRegisterUserName.ForeColor = System.Drawing.Color.Silver;
             this.txtRegisterUserName.Location = new System.Drawing.Point(42, 76);
             this.txtRegisterUserName.Name = "txtRegisterUserName";
-            this.txtRegisterUserName.Size = new System.Drawing.Size(200, 20);
+            this.txtRegisterUserName.Size = new System.Drawing.Size(200, 22);
             this.txtRegisterUserName.TabIndex = 0;
             // 
             // txtRegisterEmail
             // 
+            this.txtRegisterEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtRegisterEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRegisterEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtRegisterEmail.ForeColor = System.Drawing.Color.Silver;
             this.txtRegisterEmail.Location = new System.Drawing.Point(42, 127);
             this.txtRegisterEmail.Name = "txtRegisterEmail";
-            this.txtRegisterEmail.Size = new System.Drawing.Size(200, 20);
+            this.txtRegisterEmail.Size = new System.Drawing.Size(200, 22);
             this.txtRegisterEmail.TabIndex = 1;
             // 
             // frmLogInRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(300, 400);
-            this.Controls.Add(this.pnlRegister);
             this.Controls.Add(this.pnlLogIn);
+            this.Controls.Add(this.pnlRegister);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmLogInRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

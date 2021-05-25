@@ -29,180 +29,178 @@ namespace MyApp
         /// </summary>
         private void InitializeComponent()
         {
-            this.pnlMenuTop = new System.Windows.Forms.Panel();
-            this.btnWebsiteDbTab = new System.Windows.Forms.Button();
-            this.pnlWebSiteDb = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.btnAddNews = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnAddSoftware = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnAddWebsites = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnAddGames = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pnlMenuTop.SuspendLayout();
-            this.pnlWebSiteDb.SuspendLayout();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.pnlSideMenu = new System.Windows.Forms.Panel();
+            this.pnlLogo = new System.Windows.Forms.Panel();
+            this.lbllogo = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pnlTopMenu = new System.Windows.Forms.Panel();
+            this.pnlWeb = new System.Windows.Forms.Panel();
+            this.btnWebTab = new System.Windows.Forms.Button();
+            this.pnlIndicator = new System.Windows.Forms.Panel();
+            this.pnlSideMenu.SuspendLayout();
+            this.pnlLogo.SuspendLayout();
+            this.pnlWeb.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // pnlMenuTop
-            // 
-            this.pnlMenuTop.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.pnlMenuTop.Controls.Add(this.btnWebsiteDbTab);
-            this.pnlMenuTop.Location = new System.Drawing.Point(12, 12);
-            this.pnlMenuTop.Name = "pnlMenuTop";
-            this.pnlMenuTop.Size = new System.Drawing.Size(146, 510);
-            this.pnlMenuTop.TabIndex = 0;
-            // 
-            // btnWebsiteDbTab
-            // 
-            this.btnWebsiteDbTab.BackColor = System.Drawing.Color.Transparent;
-            this.btnWebsiteDbTab.FlatAppearance.BorderSize = 0;
-            this.btnWebsiteDbTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnWebsiteDbTab.Location = new System.Drawing.Point(15, 40);
-            this.btnWebsiteDbTab.Name = "btnWebsiteDbTab";
-            this.btnWebsiteDbTab.Size = new System.Drawing.Size(115, 46);
-            this.btnWebsiteDbTab.TabIndex = 2;
-            this.btnWebsiteDbTab.Text = "Website Database";
-            this.btnWebsiteDbTab.UseVisualStyleBackColor = false;
-            this.btnWebsiteDbTab.Click += new System.EventHandler(this.btnWebsiteDbTab_Click);
-            // 
-            // pnlWebSiteDb
-            // 
-            this.pnlWebSiteDb.Controls.Add(this.btnAddGames);
-            this.pnlWebSiteDb.Controls.Add(this.btnAddWebsites);
-            this.pnlWebSiteDb.Controls.Add(this.btnAddSoftware);
-            this.pnlWebSiteDb.Controls.Add(this.btnAddNews);
-            this.pnlWebSiteDb.Controls.Add(this.label4);
-            this.pnlWebSiteDb.Controls.Add(this.label3);
-            this.pnlWebSiteDb.Controls.Add(this.label2);
-            this.pnlWebSiteDb.Controls.Add(this.label5);
-            this.pnlWebSiteDb.Controls.Add(this.label1);
-            this.pnlWebSiteDb.Location = new System.Drawing.Point(164, 12);
-            this.pnlWebSiteDb.Name = "pnlWebSiteDb";
-            this.pnlWebSiteDb.Size = new System.Drawing.Size(608, 510);
-            this.pnlWebSiteDb.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(13, 54);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "News";
             // 
             // btnAddNews
             // 
-            this.btnAddNews.Location = new System.Drawing.Point(17, 98);
+            this.btnAddNews.FlatAppearance.BorderSize = 0;
+            this.btnAddNews.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddNews.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnAddNews.ForeColor = System.Drawing.Color.Silver;
+            this.btnAddNews.Location = new System.Drawing.Point(20, 20);
             this.btnAddNews.Name = "btnAddNews";
-            this.btnAddNews.Size = new System.Drawing.Size(111, 23);
+            this.btnAddNews.Size = new System.Drawing.Size(120, 70);
             this.btnAddNews.TabIndex = 1;
             this.btnAddNews.Text = "Add News";
             this.btnAddNews.UseVisualStyleBackColor = true;
             this.btnAddNews.Click += new System.EventHandler(this.btnAddNews_Click);
             // 
-            // label2
+            // btnExit
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(13, 145);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Softwares";
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnExit.ForeColor = System.Drawing.Color.Silver;
+            this.btnExit.Location = new System.Drawing.Point(0, 470);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(120, 70);
+            this.btnExit.TabIndex = 2;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // btnAddSoftware
+            // pnlSideMenu
             // 
-            this.btnAddSoftware.Location = new System.Drawing.Point(17, 189);
-            this.btnAddSoftware.Name = "btnAddSoftware";
-            this.btnAddSoftware.Size = new System.Drawing.Size(111, 23);
-            this.btnAddSoftware.TabIndex = 1;
-            this.btnAddSoftware.Text = "Add Software";
-            this.btnAddSoftware.UseVisualStyleBackColor = true;
+            this.pnlSideMenu.Controls.Add(this.btnWebTab);
+            this.pnlSideMenu.Controls.Add(this.pnlLogo);
+            this.pnlSideMenu.Controls.Add(this.btnExit);
+            this.pnlSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSideMenu.Location = new System.Drawing.Point(0, 0);
+            this.pnlSideMenu.Name = "pnlSideMenu";
+            this.pnlSideMenu.Size = new System.Drawing.Size(120, 540);
+            this.pnlSideMenu.TabIndex = 3;
             // 
-            // label3
+            // pnlLogo
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(13, 238);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 20);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Websites";
+            this.pnlLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pnlLogo.Controls.Add(this.lbllogo);
+            this.pnlLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlLogo.Location = new System.Drawing.Point(0, 0);
+            this.pnlLogo.Name = "pnlLogo";
+            this.pnlLogo.Size = new System.Drawing.Size(120, 100);
+            this.pnlLogo.TabIndex = 2;
+            this.pnlLogo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlLogo_MouseDown);
+            this.pnlLogo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnlLogo_MouseMove);
+            this.pnlLogo.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pnlLogo_MouseUp);
             // 
-            // btnAddWebsites
+            // lbllogo
             // 
-            this.btnAddWebsites.Location = new System.Drawing.Point(17, 282);
-            this.btnAddWebsites.Name = "btnAddWebsites";
-            this.btnAddWebsites.Size = new System.Drawing.Size(111, 23);
-            this.btnAddWebsites.TabIndex = 1;
-            this.btnAddWebsites.Text = "Add Websites";
-            this.btnAddWebsites.UseVisualStyleBackColor = true;
+            this.lbllogo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbllogo.AutoSize = true;
+            this.lbllogo.Font = new System.Drawing.Font("Algerian", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbllogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
+            this.lbllogo.Location = new System.Drawing.Point(33, 25);
+            this.lbllogo.Name = "lbllogo";
+            this.lbllogo.Size = new System.Drawing.Size(55, 54);
+            this.lbllogo.TabIndex = 0;
+            this.lbllogo.Text = "Z";
             // 
-            // label4
+            // button1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(13, 331);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "News";
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.ForeColor = System.Drawing.Color.Silver;
+            this.button1.Location = new System.Drawing.Point(20, 100);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(120, 70);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Curriculum Vitae";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // btnAddGames
+            // pnlTopMenu
             // 
-            this.btnAddGames.Location = new System.Drawing.Point(17, 375);
-            this.btnAddGames.Name = "btnAddGames";
-            this.btnAddGames.Size = new System.Drawing.Size(111, 23);
-            this.btnAddGames.TabIndex = 1;
-            this.btnAddGames.Text = "Add Games";
-            this.btnAddGames.UseVisualStyleBackColor = true;
+            this.pnlTopMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlTopMenu.Location = new System.Drawing.Point(120, 0);
+            this.pnlTopMenu.Name = "pnlTopMenu";
+            this.pnlTopMenu.Size = new System.Drawing.Size(660, 100);
+            this.pnlTopMenu.TabIndex = 4;
+            this.pnlTopMenu.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlTopMenu_MouseDown);
+            this.pnlTopMenu.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnlTopMenu_MouseMove);
+            this.pnlTopMenu.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pnlTopMenu_MouseUp);
             // 
-            // label5
+            // pnlWeb
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(13, 16);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(137, 20);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "WebsiteDatabase";
+            this.pnlWeb.Controls.Add(this.button1);
+            this.pnlWeb.Controls.Add(this.btnAddNews);
+            this.pnlWeb.Location = new System.Drawing.Point(130, 100);
+            this.pnlWeb.Name = "pnlWeb";
+            this.pnlWeb.Size = new System.Drawing.Size(650, 440);
+            this.pnlWeb.TabIndex = 5;
+            // 
+            // btnWebTab
+            // 
+            this.btnWebTab.FlatAppearance.BorderSize = 0;
+            this.btnWebTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWebTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnWebTab.ForeColor = System.Drawing.Color.Silver;
+            this.btnWebTab.Location = new System.Drawing.Point(0, 100);
+            this.btnWebTab.Name = "btnWebTab";
+            this.btnWebTab.Size = new System.Drawing.Size(120, 70);
+            this.btnWebTab.TabIndex = 3;
+            this.btnWebTab.Text = "Web";
+            this.btnWebTab.UseVisualStyleBackColor = true;
+            this.btnWebTab.Click += new System.EventHandler(this.btnWebTab_Click);
+            // 
+            // pnlIndicator
+            // 
+            this.pnlIndicator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pnlIndicator.Location = new System.Drawing.Point(120, 100);
+            this.pnlIndicator.Name = "pnlIndicator";
+            this.pnlIndicator.Size = new System.Drawing.Size(10, 70);
+            this.pnlIndicator.TabIndex = 4;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 534);
-            this.Controls.Add(this.pnlWebSiteDb);
-            this.Controls.Add(this.pnlMenuTop);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.ClientSize = new System.Drawing.Size(780, 540);
+            this.Controls.Add(this.pnlIndicator);
+            this.Controls.Add(this.pnlWeb);
+            this.Controls.Add(this.pnlTopMenu);
+            this.Controls.Add(this.pnlSideMenu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "My App";
-            this.pnlMenuTop.ResumeLayout(false);
-            this.pnlWebSiteDb.ResumeLayout(false);
-            this.pnlWebSiteDb.PerformLayout();
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmMain_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frmMain_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.frmMain_MouseUp);
+            this.pnlSideMenu.ResumeLayout(false);
+            this.pnlLogo.ResumeLayout(false);
+            this.pnlLogo.PerformLayout();
+            this.pnlWeb.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel pnlMenuTop;
-        private System.Windows.Forms.Button btnWebsiteDbTab;
-        private System.Windows.Forms.Panel pnlWebSiteDb;
-        private System.Windows.Forms.Button btnAddGames;
-        private System.Windows.Forms.Button btnAddWebsites;
-        private System.Windows.Forms.Button btnAddSoftware;
         private System.Windows.Forms.Button btnAddNews;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Panel pnlSideMenu;
+        private System.Windows.Forms.Panel pnlLogo;
+        private System.Windows.Forms.Label lbllogo;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnWebTab;
+        private System.Windows.Forms.Panel pnlTopMenu;
+        private System.Windows.Forms.Panel pnlWeb;
+        private System.Windows.Forms.Panel pnlIndicator;
     }
 }
 

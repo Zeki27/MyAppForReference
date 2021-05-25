@@ -66,5 +66,17 @@ namespace MyApp
 
 
         #endregion
+
+
+        #region CV Insert data
+
+        public static void CreatePersInfo(string name, string birthp, string birtht, string address, string phonen, string email, int userid) 
+        {
+            
+
+        }
+
+        #endregion
+
     }
 }

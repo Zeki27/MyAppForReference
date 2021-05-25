@@ -49,6 +49,9 @@ namespace MyApp
             // 
             // btnCreateNews
             // 
+            this.btnCreateNews.FlatAppearance.BorderSize = 0;
+            this.btnCreateNews.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCreateNews.ForeColor = System.Drawing.Color.Silver;
             this.btnCreateNews.Location = new System.Drawing.Point(446, 376);
             this.btnCreateNews.Name = "btnCreateNews";
             this.btnCreateNews.Size = new System.Drawing.Size(82, 23);
@@ -59,6 +62,9 @@ namespace MyApp
             // 
             // btnClose
             // 
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.ForeColor = System.Drawing.Color.Silver;
             this.btnClose.Location = new System.Drawing.Point(534, 376);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
@@ -69,13 +75,19 @@ namespace MyApp
             // 
             // txtNewsTitleHu
             // 
+            this.txtNewsTitleHu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtNewsTitleHu.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNewsTitleHu.ForeColor = System.Drawing.Color.Silver;
             this.txtNewsTitleHu.Location = new System.Drawing.Point(17, 83);
             this.txtNewsTitleHu.Name = "txtNewsTitleHu";
-            this.txtNewsTitleHu.Size = new System.Drawing.Size(164, 20);
+            this.txtNewsTitleHu.Size = new System.Drawing.Size(164, 13);
             this.txtNewsTitleHu.TabIndex = 2;
             // 
             // rtxtNewsDescHu
             // 
+            this.rtxtNewsDescHu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.rtxtNewsDescHu.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxtNewsDescHu.ForeColor = System.Drawing.Color.Silver;
             this.rtxtNewsDescHu.Location = new System.Drawing.Point(17, 140);
             this.rtxtNewsDescHu.Name = "rtxtNewsDescHu";
             this.rtxtNewsDescHu.Size = new System.Drawing.Size(249, 203);
@@ -85,6 +97,7 @@ namespace MyApp
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.Silver;
             this.label1.Location = new System.Drawing.Point(14, 67);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 13);
@@ -94,6 +107,7 @@ namespace MyApp
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Silver;
             this.label2.Location = new System.Drawing.Point(14, 124);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 13);
@@ -104,6 +118,7 @@ namespace MyApp
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.ForeColor = System.Drawing.Color.Silver;
             this.label3.Location = new System.Drawing.Point(89, 13);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 31);
@@ -136,6 +151,9 @@ namespace MyApp
             // 
             // rtxtNewsDescEn
             // 
+            this.rtxtNewsDescEn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.rtxtNewsDescEn.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxtNewsDescEn.ForeColor = System.Drawing.Color.Silver;
             this.rtxtNewsDescEn.Location = new System.Drawing.Point(17, 140);
             this.rtxtNewsDescEn.Name = "rtxtNewsDescEn";
             this.rtxtNewsDescEn.Size = new System.Drawing.Size(249, 203);
@@ -145,6 +163,7 @@ namespace MyApp
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.Silver;
             this.label4.Location = new System.Drawing.Point(14, 124);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(91, 13);
@@ -155,6 +174,7 @@ namespace MyApp
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.ForeColor = System.Drawing.Color.Silver;
             this.label5.Location = new System.Drawing.Point(89, 13);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(103, 31);
@@ -164,6 +184,7 @@ namespace MyApp
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.Silver;
             this.label6.Location = new System.Drawing.Point(14, 67);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(56, 13);
@@ -172,15 +193,19 @@ namespace MyApp
             // 
             // txtNewsTitleEn
             // 
+            this.txtNewsTitleEn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtNewsTitleEn.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNewsTitleEn.ForeColor = System.Drawing.Color.Silver;
             this.txtNewsTitleEn.Location = new System.Drawing.Point(17, 83);
             this.txtNewsTitleEn.Name = "txtNewsTitleEn";
-            this.txtNewsTitleEn.Size = new System.Drawing.Size(164, 20);
+            this.txtNewsTitleEn.Size = new System.Drawing.Size(164, 13);
             this.txtNewsTitleEn.TabIndex = 2;
             // 
             // frmAddWebsiteNews
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(623, 406);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -190,6 +215,9 @@ namespace MyApp
             this.Name = "frmAddWebsiteNews";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmAddWebsiteNews";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmAddWebsiteNews_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frmAddWebsiteNews_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.frmAddWebsiteNews_MouseUp);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
