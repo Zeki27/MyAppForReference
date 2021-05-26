@@ -45,5 +45,16 @@ namespace MyApp
         {
             Application.Run(new frmAddWebsiteNews());
         }
+
+        public static void OpenCVForm()
+        {
+            th = new Thread(OpenCV);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+        }
+        private static void OpenCV(object obj)
+        {
+            Application.Run(new frmCV());
+        }
     }
 }

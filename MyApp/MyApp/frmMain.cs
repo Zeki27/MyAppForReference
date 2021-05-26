@@ -130,5 +130,9 @@ namespace MyApp
             pnlWeb.BringToFront();
         }
 
+        private void btnCV_Click(object sender, EventArgs e)
+        {
+            FormOpenClose.OpenCVForm();
+        }
     }
 }

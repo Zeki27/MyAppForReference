@@ -32,12 +32,12 @@ namespace MyApp
             this.btnAddNews = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.pnlSideMenu = new System.Windows.Forms.Panel();
+            this.btnWebTab = new System.Windows.Forms.Button();
             this.pnlLogo = new System.Windows.Forms.Panel();
             this.lbllogo = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.pnlTopMenu = new System.Windows.Forms.Panel();
             this.pnlWeb = new System.Windows.Forms.Panel();
-            this.btnWebTab = new System.Windows.Forms.Button();
+            this.btnCV = new System.Windows.Forms.Button();
             this.pnlIndicator = new System.Windows.Forms.Panel();
             this.pnlSideMenu.SuspendLayout();
             this.pnlLogo.SuspendLayout();
@@ -46,6 +46,7 @@ namespace MyApp
             // 
             // btnAddNews
             // 
+            this.btnAddNews.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(60)))), ((int)(((byte)(68)))));
             this.btnAddNews.FlatAppearance.BorderSize = 0;
             this.btnAddNews.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddNews.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
@@ -55,7 +56,7 @@ namespace MyApp
             this.btnAddNews.Size = new System.Drawing.Size(120, 70);
             this.btnAddNews.TabIndex = 1;
             this.btnAddNews.Text = "Add News";
-            this.btnAddNews.UseVisualStyleBackColor = true;
+            this.btnAddNews.UseVisualStyleBackColor = false;
             this.btnAddNews.Click += new System.EventHandler(this.btnAddNews_Click);
             // 
             // btnExit
@@ -82,6 +83,20 @@ namespace MyApp
             this.pnlSideMenu.Name = "pnlSideMenu";
             this.pnlSideMenu.Size = new System.Drawing.Size(120, 540);
             this.pnlSideMenu.TabIndex = 3;
+            // 
+            // btnWebTab
+            // 
+            this.btnWebTab.FlatAppearance.BorderSize = 0;
+            this.btnWebTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWebTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnWebTab.ForeColor = System.Drawing.Color.Silver;
+            this.btnWebTab.Location = new System.Drawing.Point(0, 100);
+            this.btnWebTab.Name = "btnWebTab";
+            this.btnWebTab.Size = new System.Drawing.Size(120, 70);
+            this.btnWebTab.TabIndex = 3;
+            this.btnWebTab.Text = "Web";
+            this.btnWebTab.UseVisualStyleBackColor = true;
+            this.btnWebTab.Click += new System.EventHandler(this.btnWebTab_Click);
             // 
             // pnlLogo
             // 
@@ -110,19 +125,6 @@ namespace MyApp
             this.lbllogo.TabIndex = 0;
             this.lbllogo.Text = "Z";
             // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.ForeColor = System.Drawing.Color.Silver;
-            this.button1.Location = new System.Drawing.Point(20, 100);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 70);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Curriculum Vitae";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // pnlTopMenu
             // 
             this.pnlTopMenu.Dock = System.Windows.Forms.DockStyle.Top;
@@ -136,26 +138,27 @@ namespace MyApp
             // 
             // pnlWeb
             // 
-            this.pnlWeb.Controls.Add(this.button1);
+            this.pnlWeb.Controls.Add(this.btnCV);
             this.pnlWeb.Controls.Add(this.btnAddNews);
             this.pnlWeb.Location = new System.Drawing.Point(130, 100);
             this.pnlWeb.Name = "pnlWeb";
             this.pnlWeb.Size = new System.Drawing.Size(650, 440);
             this.pnlWeb.TabIndex = 5;
             // 
-            // btnWebTab
+            // btnCV
             // 
-            this.btnWebTab.FlatAppearance.BorderSize = 0;
-            this.btnWebTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWebTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnWebTab.ForeColor = System.Drawing.Color.Silver;
-            this.btnWebTab.Location = new System.Drawing.Point(0, 100);
-            this.btnWebTab.Name = "btnWebTab";
-            this.btnWebTab.Size = new System.Drawing.Size(120, 70);
-            this.btnWebTab.TabIndex = 3;
-            this.btnWebTab.Text = "Web";
-            this.btnWebTab.UseVisualStyleBackColor = true;
-            this.btnWebTab.Click += new System.EventHandler(this.btnWebTab_Click);
+            this.btnCV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(60)))), ((int)(((byte)(68)))));
+            this.btnCV.FlatAppearance.BorderSize = 0;
+            this.btnCV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCV.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnCV.ForeColor = System.Drawing.Color.Silver;
+            this.btnCV.Location = new System.Drawing.Point(20, 96);
+            this.btnCV.Name = "btnCV";
+            this.btnCV.Size = new System.Drawing.Size(120, 70);
+            this.btnCV.TabIndex = 2;
+            this.btnCV.Text = "CV";
+            this.btnCV.UseVisualStyleBackColor = false;
+            this.btnCV.Click += new System.EventHandler(this.btnCV_Click);
             // 
             // pnlIndicator
             // 
@@ -196,11 +199,11 @@ namespace MyApp
         private System.Windows.Forms.Panel pnlSideMenu;
         private System.Windows.Forms.Panel pnlLogo;
         private System.Windows.Forms.Label lbllogo;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnWebTab;
         private System.Windows.Forms.Panel pnlTopMenu;
         private System.Windows.Forms.Panel pnlWeb;
         private System.Windows.Forms.Panel pnlIndicator;
+        private System.Windows.Forms.Button btnCV;
     }
 }
 
