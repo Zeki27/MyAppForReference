@@ -46,18 +46,24 @@ namespace MyApp
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(447, 326);
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(60)))), ((int)(((byte)(68)))));
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnClose.ForeColor = System.Drawing.Color.Silver;
+            this.btnClose.Location = new System.Drawing.Point(447, 319);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.Size = new System.Drawing.Size(75, 30);
             this.btnClose.TabIndex = 0;
             this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.ForeColor = System.Drawing.Color.Silver;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(195, 29);
@@ -67,6 +73,7 @@ namespace MyApp
             // lblServer
             // 
             this.lblServer.AutoSize = true;
+            this.lblServer.ForeColor = System.Drawing.Color.Silver;
             this.lblServer.Location = new System.Drawing.Point(14, 67);
             this.lblServer.Name = "lblServer";
             this.lblServer.Size = new System.Drawing.Size(41, 13);
@@ -75,14 +82,18 @@ namespace MyApp
             // 
             // txtServerName
             // 
+            this.txtServerName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtServerName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtServerName.ForeColor = System.Drawing.Color.Silver;
             this.txtServerName.Location = new System.Drawing.Point(77, 64);
             this.txtServerName.Name = "txtServerName";
-            this.txtServerName.Size = new System.Drawing.Size(207, 20);
+            this.txtServerName.Size = new System.Drawing.Size(220, 13);
             this.txtServerName.TabIndex = 3;
             // 
             // lblUserId
             // 
             this.lblUserId.AutoSize = true;
+            this.lblUserId.ForeColor = System.Drawing.Color.Silver;
             this.lblUserId.Location = new System.Drawing.Point(14, 93);
             this.lblUserId.Name = "lblUserId";
             this.lblUserId.Size = new System.Drawing.Size(44, 13);
@@ -92,6 +103,7 @@ namespace MyApp
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
+            this.lblPassword.ForeColor = System.Drawing.Color.Silver;
             this.lblPassword.Location = new System.Drawing.Point(14, 119);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(56, 13);
@@ -101,6 +113,7 @@ namespace MyApp
             // lblDb
             // 
             this.lblDb.AutoSize = true;
+            this.lblDb.ForeColor = System.Drawing.Color.Silver;
             this.lblDb.Location = new System.Drawing.Point(14, 145);
             this.lblDb.Name = "lblDb";
             this.lblDb.Size = new System.Drawing.Size(56, 13);
@@ -110,6 +123,7 @@ namespace MyApp
             // lblSsl
             // 
             this.lblSsl.AutoSize = true;
+            this.lblSsl.ForeColor = System.Drawing.Color.Silver;
             this.lblSsl.Location = new System.Drawing.Point(14, 171);
             this.lblSsl.Name = "lblSsl";
             this.lblSsl.Size = new System.Drawing.Size(54, 13);
@@ -118,46 +132,64 @@ namespace MyApp
             // 
             // txtPassword
             // 
+            this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPassword.ForeColor = System.Drawing.Color.Silver;
             this.txtPassword.Location = new System.Drawing.Point(77, 116);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(207, 20);
+            this.txtPassword.Size = new System.Drawing.Size(220, 13);
             this.txtPassword.TabIndex = 3;
             // 
             // txtDatabaseName
             // 
+            this.txtDatabaseName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtDatabaseName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtDatabaseName.ForeColor = System.Drawing.Color.Silver;
             this.txtDatabaseName.Location = new System.Drawing.Point(77, 142);
             this.txtDatabaseName.Name = "txtDatabaseName";
-            this.txtDatabaseName.Size = new System.Drawing.Size(207, 20);
+            this.txtDatabaseName.Size = new System.Drawing.Size(220, 13);
             this.txtDatabaseName.TabIndex = 3;
             // 
             // txtSslmode
             // 
+            this.txtSslmode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtSslmode.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSslmode.ForeColor = System.Drawing.Color.Silver;
             this.txtSslmode.Location = new System.Drawing.Point(77, 168);
             this.txtSslmode.Name = "txtSslmode";
-            this.txtSslmode.Size = new System.Drawing.Size(207, 20);
+            this.txtSslmode.Size = new System.Drawing.Size(220, 13);
             this.txtSslmode.TabIndex = 3;
             // 
             // txtUserId
             // 
+            this.txtUserId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.txtUserId.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUserId.ForeColor = System.Drawing.Color.Silver;
             this.txtUserId.Location = new System.Drawing.Point(77, 90);
             this.txtUserId.Name = "txtUserId";
-            this.txtUserId.Size = new System.Drawing.Size(207, 20);
+            this.txtUserId.Size = new System.Drawing.Size(220, 13);
             this.txtUserId.TabIndex = 3;
             // 
             // btnModifyDb
             // 
-            this.btnModifyDb.Location = new System.Drawing.Point(12, 326);
+            this.btnModifyDb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(60)))), ((int)(((byte)(68)))));
+            this.btnModifyDb.FlatAppearance.BorderSize = 0;
+            this.btnModifyDb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModifyDb.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnModifyDb.ForeColor = System.Drawing.Color.Silver;
+            this.btnModifyDb.Location = new System.Drawing.Point(12, 319);
             this.btnModifyDb.Name = "btnModifyDb";
-            this.btnModifyDb.Size = new System.Drawing.Size(111, 23);
+            this.btnModifyDb.Size = new System.Drawing.Size(140, 30);
             this.btnModifyDb.TabIndex = 8;
             this.btnModifyDb.Text = "Change Database";
-            this.btnModifyDb.UseVisualStyleBackColor = true;
+            this.btnModifyDb.UseVisualStyleBackColor = false;
             this.btnModifyDb.Click += new System.EventHandler(this.btnModifyDb_Click);
             // 
             // frmModifySQLConn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(534, 361);
             this.Controls.Add(this.btnModifyDb);
             this.Controls.Add(this.lblSsl);
