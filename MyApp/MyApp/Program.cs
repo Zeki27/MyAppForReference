@@ -16,7 +16,7 @@ namespace MyApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogInRegister());
+            Application.Run(new frmMain());
         }
     }
 }

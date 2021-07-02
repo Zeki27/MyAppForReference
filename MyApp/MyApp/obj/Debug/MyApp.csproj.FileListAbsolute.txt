@@ -62,8 +62,6 @@ D:\MicrosoftVSP\RefApp\MyApp\MyApp\obj\Debug\MyApp.pdb
 Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\bin\Debug\MyApp.exe.config
 Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\bin\Debug\MyApp.exe
 Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\bin\Debug\MyApp.pdb
-Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\bin\Debug\MySql.Data.xml
-Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\obj\Debug\MyApp.csprojAssemblyReference.cache
 Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\obj\Debug\MyApp.frmAddWebsiteNews.resources
 Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\obj\Debug\MyApp.frmCV.resources
 Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\obj\Debug\MyApp.frmMain.resources
@@ -75,3 +73,4 @@ Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\obj\Debug\MyApp.csproj.CoreC
 Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\obj\Debug\MyApp.csproj.CopyComplete
 Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\obj\Debug\MyApp.exe
 Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\obj\Debug\MyApp.pdb
+Z:\Development\Projects\CSharp\SW\myApp\MyApp\MyApp\obj\Debug\MyApp.csprojAssemblyReference.cache
